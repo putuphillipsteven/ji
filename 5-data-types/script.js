@@ -42,3 +42,13 @@ let ageThird = 100;
 ageThird = undefined;
 
 console.log("ageThird - ", ageThird)
+
+console.log("typeof ageThird - ", typeof (ageThird));
+
+let nameThird = "Ilya";
+
+console.log(`Hello ${1}`);
+
+console.log(`Hello ${"nameThird"}`);
+
+console.log(`Hello ${nameThird}`);
