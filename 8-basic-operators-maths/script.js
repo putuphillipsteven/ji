@@ -38,3 +38,34 @@ console.log("2" + 3 * 10);
 console.log("2" + 3 + 10);
 
 console.log(3 * 10 + "2");
+
+
+let aOne = 1;
+
+let bOne = 1;
+
+let cOne = ++aOne;
+
+let dOne = bOne++;
+
+console.log("aOne: ", aOne);
+
+console.log("bOne: ", bOne);
+
+console.log("cOne: ", cOne)
+
+console.log("dOne: ", dOne)
+
+let aTwo = 2;
+
+let xFour = 1 + (aTwo *= 2);
+
+console.log("xFour: ", xFour);
+
+let xFive = "" + 1 + 0;
+
+console.log(typeof xFive, `: ${xFive}`)
+
+let xSix = "" - 1 + 0;
+
+console.log(typeof xSix, `: ${xSix}`);
