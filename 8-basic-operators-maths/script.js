@@ -69,3 +69,59 @@ console.log(typeof xFive, `: ${xFive}`)
 let xSix = "" - 1 + 0;
 
 console.log(typeof xSix, `: ${xSix}`);
+
+let counter = 1;
+
+console.log(2 * ++counter);
+
+console.log(2 * counter++);
+
+let a11 = 1, b11 = 1;
+
+let c11 = ++a11;
+let d11 = b11++;
+
+console.log(`c11: ${c11}`);
+
+console.log(`d11: ${d11}`);
+
+let a12 = 2;
+
+let x12 = 1 + (a12 *= 2);
+
+console.log(`x12: ${x12}`)
+
+console.log(`1. `, "" + 1 + 0);
+
+console.log(`2. `, "" - 1 + 0);
+
+console.log(`3. `, true + false);
+
+console.log(`4. `, 6 / "3");
+
+console.log(`5. `, "2" * "3");
+
+console.log(`6. `, 4 + 5 + "px");
+
+console.log(`7. `, "$" + 4 + 5);
+
+console.log(`8. `, "4" - 2);
+
+console.log(`9. `, "4px" - 2);
+
+console.log(`10. `, "  -9  " + 5);
+
+console.log(`11. `, "  -9  " - 5);
+
+console.log(`12. `, null + 1);
+
+console.log(`13. `, undefined + 1);
+
+console.log(`14. `, " \t \n" - 2);
+
+
+let ab1 = prompt(`First number: `, 1);
+
+let ab2 = prompt(`Second number: `, 2);
+
+prompt(`The result are: `, Number(ab1) + Number(ab2));
